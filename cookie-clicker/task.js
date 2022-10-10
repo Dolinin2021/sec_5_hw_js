@@ -15,6 +15,7 @@ cookie.onclick = () => {
         bool = false;
     }
     if (count === 40) {
+        count = 0;
         window.location.reload();
     } 
 }
